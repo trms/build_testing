@@ -163,12 +163,12 @@ Tightrope Media Systems
 %BuildVersion%
 %MajorVersion%
 %MinorVersion%
-
+%RevisionVersion%
 
 %MajorVersion%
 %MinorVersion%
 
-
+%RevisionVersion%
 
 
 ]]>
@@ -182,12 +182,12 @@ Description=0
 FileBuildVersion=-1
 FileMajorVersion=-1
 FileMinorVersion=-1
-FileRevisionVersion=0
+FileRevisionVersion=-1
 LinkFileVersion=0
 MajorVersion=-1
 MinorVersion=-1
 Product=0
-RevisionVersion=0
+RevisionVersion=-1
 Title=0
 Trademark=0
 ]]>
@@ -429,6 +429,16 @@ Trademark=0
         <Property name="IsPersistent" type="Boolean">False</Property>
         <Property name="MakeEnv" type="Boolean">False</Property>
         <Property MultiValue="0" name="Name" type="string">SrcDir</Property>
+        <Property name="VariableType" type="TFBVariableType">vtProject</Property>
+      </Object>
+      <Object Class="TFBVariable" XMLID="{10E20768-6796-403A-9327-F9D1FFCB9A03}">
+        <Property MultiValue="0" name="Comment" type="string"></Property>
+        <Property MultiValue="0" name="DefaultValue" type="string">0</Property>
+        <Property MultiValue="0" name="GroupName" type="string"></Property>
+        <Property name="IsMacro" type="Boolean">False</Property>
+        <Property name="IsPersistent" type="Boolean">False</Property>
+        <Property name="MakeEnv" type="Boolean">False</Property>
+        <Property MultiValue="0" name="Name" type="string">RevisionVersion</Property>
         <Property name="VariableType" type="TFBVariableType">vtProject</Property>
       </Object>
     </Object>
